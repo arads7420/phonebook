@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Trebuchet MS';
+}
+
+.header {
+  text-align: center;
+}
+
+.App {
+    max-width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #fafafa;
+}
+
+@media (min-width: 768px) {
+    .App {
+        width: 300px;
+    }
+} 
+@media (min-width: 992px) {
+    .App {
+        width: 500px;
+    }
+} 
+@media (min-width: 1200px) {
+    .App {
+        width: 600px;
+    }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin: 20px 0;
+}
+
+.contact-list {
+  margin-top: 20px;
+  overflow-y: scroll;
+  height: 400px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #efefef;
+  height: 80px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.phone {
+  color: rgb(153, 153, 153);
+  font-weight: bold;
+}
+.phone > i {
+  font-size: 0.8rem;
+}
+
+.search {
+  position: relative;
+}
+
+.search > i {
+  display: inline-flex;
+  position: absolute;
+  z-index: 2;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  color: #8b8c8d;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: .375rem;
+  border-right: none;
+  height: 33.5px;
+  padding: 0 10px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.search > input[type="text"] {
+  border-left: none;
+  position: relative;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  color: #8b8c8d;
+  padding-left: 30px;
+  margin-left: 5px;
+}
+
+.search:focus-within > i {
+  border: #90bcff 1px solid;
+  border-right: none;
+}
+
+.form {
+  margin-top: 60px;
+}
