@@ -37,8 +37,10 @@ npm start
 
 - Add a Contact:
 
-![Web capture_28-6-2022_23335_localhost](https://user-images.githubusercontent.com/55148309/176249431-8e478ffb-7616-417c-9ea5-967509c334eb.jpeg)
+![Web capture_28-6-2022_231943_localhost](https://user-images.githubusercontent.com/55148309/176250840-5a0e0830-7db5-4914-82bb-6d242a8b23dd.jpeg)
+
 
 - Update a Contact:
 
-![Web capture_28-6-2022_23335_localhost](https://user-images.githubusercontent.com/55148309/176249605-7ce4fc53-824f-4155-abc8-dc2414963b46.jpeg)
+![Web capture_28-6-2022_232052_localhost](https://user-images.githubusercontent.com/55148309/176250909-2dabee45-a4f9-44bf-a28f-429990db0d4a.jpeg)
+
